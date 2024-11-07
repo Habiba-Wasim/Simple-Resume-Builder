@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #4A90E2; 
+    color: white;
+    padding: 20px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.profile-info {
+    max-width: 80%; 
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+    margin-left: 20px; 
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.left-section {
+    background-color: #e9f5ff;
+    color: #333;
+    width: 40%; 
+    height: 800px;
+    padding: 30px;
+    border-right: 2px solid #ddd;
+}
+
+.right-section {
+    background-color: #ffffff;
+    width: 60%;
+    height: 800px;
+    padding: 15px; 
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4A90E2;
+    border-bottom: 1px solid #4A90E2; 
+    padding-bottom: 5px;
+}
+
+a {
+    color: #4A90E2; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+#toggle-skills {
+    background-color: #4A90E2;
+    color: white; 
+    border: none;
+    padding: 10px 15px; 
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+#toggle-skills:hover {
+    background-color: #4176B7; 
+}
