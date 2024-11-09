@@ -1,1 +1,1 @@
-# Simple-Resume-Builder
+# Static-Resume-Builder
